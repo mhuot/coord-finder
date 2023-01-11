@@ -174,6 +174,8 @@ public class CoordCommands {
                             .append(", ")
                             .append(Component.literal("a-z").withStyle(ChatFormatting.GREEN))
                             .append(", ")
+                            .append(Component.literal("0-9").withStyle(ChatFormatting.GREEN))
+                            .append(", ")
                             .append(Component.literal("-").withStyle(ChatFormatting.GREEN))
                             .append(" and ")
                             .append(Component.literal("_").withStyle(ChatFormatting.GREEN))

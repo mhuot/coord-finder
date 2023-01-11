@@ -120,3 +120,7 @@ run/
 curseforge_api_key.txt
 forge_update_api_key.txt
 modrinth_token.txt
+
+#vscode ignores
+.vscode
+bin/main/fabric.mod.json

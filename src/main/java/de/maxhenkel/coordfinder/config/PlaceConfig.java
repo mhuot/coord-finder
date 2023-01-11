@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class PlaceConfig extends PropertyConfig {
 
-    public static final Pattern PLACE_NAME_REGEX = Pattern.compile("^[a-zA-Z_-]{1,32}$");
+    public static final Pattern PLACE_NAME_REGEX = Pattern.compile("^[a-zA-Z0-9_-]{1,32}$");
 
     private final Map<String, Location> places;
 
